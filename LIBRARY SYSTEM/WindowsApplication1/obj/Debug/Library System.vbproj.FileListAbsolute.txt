@@ -1,0 +1,66 @@
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbprojResolveAssemblyReference.cache
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmwlcome.resources
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmLogin.resources
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbproj.GenerateResource.Cache
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\MySql.Data.dll
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\MySql.Data.xml
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmmenu.resources
+c:\users\howard\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form4.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbprojResolveAssemblyReference.cache
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmwlcome.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmmenu.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbproj.GenerateResource.cache
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbproj.CoreCompileInputs.cache
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Library System.vbproj.CopyComplete
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmmembers.resources
+C:\Users\Tadiwa\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmaddbooks.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Library System.vbprojResolveAssemblyReference.cache
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Library System.vbproj.ResolveComReference.cache
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmaddbooks.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmborrow.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmreturns.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmwlcome.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmmembers.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Library System.vbproj.GenerateResource.cache
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Library System.vbproj.CoreCompileInputs.cache
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\Library System.vbproj.CopyComplete
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmlistofbooks.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmRemove.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmListOfMembers.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmRemoveMember.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmemail.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmchange.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmstaffmenu.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmStudentsMenu.resources
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\bin\Debug\mysql.data.xml
+C:\Users\Tadiwa\Desktop\LIBRARY SYSTEM\WindowsApplication1\obj\Debug\WindowsApplication1.frmBorrowed.resources

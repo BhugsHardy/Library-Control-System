@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="library_systemDataSet" targetNamespace="http://tempuri.org/library_systemDataSet2.xsd" xmlns:mstns="http://tempuri.org/library_systemDataSet2.xsd" xmlns="http://tempuri.org/library_systemDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="library_systemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="library_systemConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.library_systemConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="borrowedTableAdapter" GeneratorDataComponentClassName="borrowedTableAdapter" Name="borrowed" UserDataComponentName="borrowedTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="library_systemConnectionString (MySettings)" DbObjectName="library_system.borrowed" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MemberID, BookID, Title, Subject, Status, DateIssued, DueDate FROM borrowed</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="library_systemDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="library_systemDataSet" msprop:Generator_UserDSName="library_systemDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="borrowed" msprop:Generator_TableClassName="borrowedDataTable" msprop:Generator_TableVarName="tableborrowed" msprop:Generator_TablePropName="borrowed" msprop:Generator_RowDeletingName="borrowedRowDeleting" msprop:Generator_RowChangingName="borrowedRowChanging" msprop:Generator_RowEvHandlerName="borrowedRowChangeEventHandler" msprop:Generator_RowDeletedName="borrowedRowDeleted" msprop:Generator_UserTableName="borrowed" msprop:Generator_RowChangedName="borrowedRowChanged" msprop:Generator_RowEvArgName="borrowedRowChangeEvent" msprop:Generator_RowClassName="borrowedRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

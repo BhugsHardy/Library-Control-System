@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67039A44-CA36-4A6C-8941-F369966F0685}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addbooks.Designer.vb">
+      <DependentUpon>Addbooks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addbooks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrow.Designer.vb">
+      <DependentUpon>Borrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Borrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfBorrowed.Designer.vb">
+      <DependentUpon>ListOfBorrowed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfBorrowed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nkulumane Library Email.Designer.vb">
+      <DependentUpon>Nkulumane Library Email.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nkulumane Library Email.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveBooks.Designer.vb">
+      <DependentUpon>RemoveBooks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveBooks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveMember.Designer.vb">
+      <DependentUpon>RemoveMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangingPassword.Designer.vb">
+      <DependentUpon>ChangingPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangingPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfBooks.Designer.vb">
+      <DependentUpon>ListOfBooks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfBooks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfMembers.Designer.vb">
+      <DependentUpon>ListOfMembers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfMembers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Returns.Designer.vb">
+      <DependentUpon>Returns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Returns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Menu.Designer.vb">
+      <DependentUpon>Staff Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsMenu.Designer.vb">
+      <DependentUpon>StudentsMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addmemembers.Designer.vb">
+      <DependentUpon>Addmemembers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addmemembers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Addbooks.resx">
+      <DependentUpon>Addbooks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrow.resx">
+      <DependentUpon>Borrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfBorrowed.resx">
+      <DependentUpon>ListOfBorrowed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nkulumane Library Email.resx">
+      <DependentUpon>Nkulumane Library Email.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveBooks.resx">
+      <DependentUpon>RemoveBooks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveMember.resx">
+      <DependentUpon>RemoveMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangingPassword.resx">
+      <DependentUpon>ChangingPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfBooks.resx">
+      <DependentUpon>ListOfBooks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfMembers.resx">
+      <DependentUpon>ListOfMembers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Returns.resx">
+      <DependentUpon>Returns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Menu.resx">
+      <DependentUpon>Staff Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsMenu.resx">
+      <DependentUpon>StudentsMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addmemembers.resx">
+      <DependentUpon>Addmemembers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ebook-mercato-italiano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-library-e-book-research-coming-out-computer-screen-computer-representing-school-classes-manual-31531667.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rab_image_900x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome to Nkulumane Library...Read and Enjoy.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RR_photo7.jpg450x298.88059701493.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <Guid>{C866CA3A-32F7-11D2-9602-00C04F8EE628}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
